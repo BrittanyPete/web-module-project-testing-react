@@ -8,6 +8,7 @@ const Show = (props) => {
     if (!show)
       return <Loading />
 
+      console.log('show data:', show);
     return(<div data-testid="show-container">
         <h1>{show.name}</h1>
         <p>{show.summary}</p>
